@@ -1,0 +1,36 @@
+<mat-sidenav-container class="example-container">
+    <mat-sidenav #sidenav id='minidraw' mode="side" opened='true'>
+     <mat-nav-list>
+    <mat-list-item role="listitem">
+    <mat-icon (click)="changeIcon()" >{{arrow}}</mat-icon>
+    </mat-list-item>
+    <mat-list-item role="listitem">
+    <mat-icon >arrow_downward</mat-icon>
+    <span *ngIf='isExpanded'>Item 1</span>
+    </mat-list-item>
+    <mat-list-item role="listitem">
+    <mat-icon >arrow_downward</mat-icon>
+    <span *ngIf='isExpanded'>Item 2</span>
+    </mat-list-item>
+    <mat-list-item role="listitem">
+    <mat-icon >arrow_downward</mat-icon>
+    <span *ngIf='isExpanded'>Item 3</span>
+    </mat-list-item>
+    </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content id='side-content'>
+    dffd<br>
+    kjdh<br>
+    sidenav<br>
+    jsdnj<br>
+    ljklj<br>
+    dffd<br>
+    kjdh<br>
+    sidenav<br>
+    jsdnj<br>
+    ljklj<br>
+    sidenav<br>
+    jsdnj<br>
+    ljklj<br>
+    </mat-sidenav-content>
+    </mat-sidenav-container>
